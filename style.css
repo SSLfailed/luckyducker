@@ -1,0 +1,15 @@
+h1 {
+    color: #7fd03e;
+}
+
+p:hover {
+    color: #0000ff;
+}
+
+a:hover {
+    color: #a48695;
+}
+
+a {
+    text-decoration: none;
+}
