@@ -37,9 +37,24 @@ a:hover {
 
 a {
     text-decoration: none;
+    cursor: not-allowed;
 }
 
 h2 {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 55px;
+}
+
+button {
+    background-color: #4d9214;
+    border-style: double;
+    height: 60px;
+    width: 190px;
+    border-color: rgb(66, 178, 227);
+    cursor: wait;
+}
+
+button:hover {
+    background-color: rgb(39, 73, 10);
+    color: #767676;
 }
