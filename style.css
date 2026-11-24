@@ -35,6 +35,10 @@ a:hover {
     color: #7c3d06;
 }
 
+.sub5:active {
+    opacity: 0.6;
+}
+
 a {
     text-decoration: none;
     cursor: not-allowed;
@@ -48,13 +52,26 @@ h2 {
 button {
     background-color: #4d9214;
     border-style: double;
+    font-size: 12px;
     height: 60px;
     width: 190px;
     border-color: rgb(66, 178, 227);
     cursor: wait;
+    transition: width 0.55s;
 }
 
 button:hover {
     background-color: rgb(39, 73, 10);
+    width: 220px;
+    font-size: 17px;
     color: #767676;
+    transition: opacity 1s;
+    transition: width 0.55s;
+}
+
+button:active {
+    background-color: #000000;
+    color: rgb(66, 178, 227);
+    opacity: 0.5;
+    transition: opacity 1s;
 }
